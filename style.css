@@ -54,8 +54,7 @@ a{
     grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
     padding: 20px;
     grid-gap: 40px;
-
-  }
+}
 
   .card
   {
@@ -65,8 +64,7 @@ a{
     border-radius: 20px;
     box-shadow: 0 0 30px rgb(0, 0, 0.18);
     cursor: pointer;
-
-  }
+ }
 
 
   .card:hover {
@@ -78,12 +76,11 @@ a{
 
 
 
-  img{
+img{
     width: 100%;
     display: block;
     border-radius: 20px 20px 0 0;
-
-  }
+}
 
   .container
   {
@@ -92,20 +89,15 @@ a{
 
   }
 
-  .card1>.container:after
-  {
-background-image: linear-gradient(
-135deg,
-  rgb(162, 240, 162), );
-
-  }
+.card1>.container:after
+{
+    background-image: linear-gradient(135deg,rgb(162, 240, 162), );
+}
 
 
 .details
 {
-
   padding: 20px 30px;
-
 }
 
 .details>h3{
@@ -124,16 +116,18 @@ background-image: linear-gradient(
   font-weight: 400;
 }
 
-.w3-bar-block w3-center a:hover {
-	font-weight: bolder;
+.w3-bar-block w3-center a:hover 
+{
+font-weight: bolder;
+}
+
+.dropdown 
+{
+    float: center;
+   overflow: hidden;
 }
 
 
-
-.dropdown {
-	float: center;
-	overflow: hidden;
-}
 .dropdown .drop {
 	font-size: 17px; 
     border: none;
@@ -144,13 +138,19 @@ background-image: linear-gradient(
     font-family: inherit;
     margin: 0;
 }
+
+
 .drop .fa-angle-double-up,
 .drop:hover .fa-angle-double-down {
 	display: none;
 }
+
+
 .drop:hover .fa-angle-double-up {
 	display: inline;
 }
+
+
 .drop-content {
 	display: none;
 	position: absolute;
@@ -159,6 +159,8 @@ background-image: linear-gradient(
   z-index: 1;
   width: 100%;
 }
+
+
 .drop-content a {
 	float:center;
 	color: #fff;
@@ -167,6 +169,7 @@ background-image: linear-gradient(
 	display: block;
   margin-left: 00px;
 }
+
 .dropdown:hover .drop-content {
 	display: block;
 }
