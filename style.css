@@ -4,7 +4,7 @@ img {margin-bottom: -7px}
 
 .main-heading
 {
-     font-size: 45px; 
+      font-size: 45px; 
       font-family: 'Bungee';
       margin: 1rem;
       color: limegreen;
@@ -14,10 +14,13 @@ img {margin-bottom: -7px}
       border: 4px solid limegreen;
       border-radius: 30px;
       transition: all 0.3s ease-out;
-    }
-a{
+}
+
+a
+{
   transition: all 0.3s ease-in;
 }
+
  .main-heading:hover
  {   
     background: black;
@@ -28,33 +31,38 @@ a{
     0 0 110px lawngreen ;
   }
 
- body {
+
+ body
+{
   background-color: #e3f9c3;
 }
-.iframe-container{
+
+.iframe-container
+{
     position: relative;
     width: 100%;
     padding-bottom: 56.25%; 
     height: 0;
     margin-bottom: 1rem;
-  }
-  .iframe-container iframe{
+}
+
+  .iframe-container iframe
+{
     position: absolute;
     top:0;
     left: 0;
     width: 100%;
     height: 100%;
-
-  }
-
-  .cards
-  {
+ }
+ .cards
+ {
     
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
     padding: 20px;
     grid-gap: 40px;
 }
+
 
   .card
   {
@@ -67,27 +75,28 @@ a{
  }
 
 
-  .card:hover {
+  .card:hover 
+{	
   transform: scale(1.1);
   color: rgb(51, 114, 0);
   background-color: rgb(255, 255, 255);
-    box-shadow: 10px 10px 12px rgba(0, 0, 0, 0.233);
-  }
+  box-shadow: 10px 10px 12px rgba(0, 0, 0, 0.233);
+}
 
 
 
-img{
+img
+{
     width: 100%;
     display: block;
     border-radius: 20px 20px 0 0;
 }
 
   .container
-  {
+{
     position: relative;
     clip-path: polygon(0 0,100% 0 , 100% 85%, 0 100%);
-
-  }
+}
 
 .card1>.container:after
 {
@@ -100,13 +109,14 @@ img{
   padding: 20px 30px;
 }
 
-.details>h3{
+.details>h3
+{
   color: black;
   font-weight: 600;
   font-size: 20px;
   margin: 10px 0 15px 0;
-
 }
+
 
 .details>p
 {
@@ -118,18 +128,19 @@ img{
 
 .w3-bar-block w3-center a:hover 
 {
-font-weight: bolder;
+  font-weight: bolder;
 }
 
 .dropdown 
 {
     float: center;
-   overflow: hidden;
+    overflow: hidden;
 }
 
 
-.dropdown .drop {
-	font-size: 17px; 
+.dropdown .drop 
+{
+    font-size: 17px; 
     border: none;
     outline: none;
     color: #fff;
@@ -141,61 +152,73 @@ font-weight: bolder;
 
 
 .drop .fa-angle-double-up,
-.drop:hover .fa-angle-double-down {
+.drop:hover .fa-angle-double-down 
+{
 	display: none;
 }
 
 
-.drop:hover .fa-angle-double-up {
+.drop:hover .fa-angle-double-up 
+{
 	display: inline;
 }
 
 
-.drop-content {
+.drop-content
+{
 	display: none;
 	position: absolute;
 	background-color: #404040;
 	min-width: 150px;
-  z-index: 1;
-  width: 100%;
+        z-index: 1;
+        width: 100%;
 }
 
 
-.drop-content a {
+.drop-content a 
+{
 	float:center;
 	color: #fff;
 	padding: 22px, 10px;
 	text-decoration: none;
 	display: block;
-  margin-left: 00px;
+        margin-left: 00px;
 }
 
-.dropdown:hover .drop-content {
-	display: block;
+.dropdown:hover .drop-content
+{
+   display: block;
 }
-.drop-content a:hover {
-	background-color: rgba(179, 167, 167, 0.5);
+
+.drop-content a:hover
+{
+  background-color: rgba(179, 167, 167, 0.5);
 }
   
+.navbar.responsive .drop-content
+{
+	position: center;
+	padding-left: 300px;
+	padding-right: 300px;
+	background-color: rgba(179, 167, 167, 0.5);
+}
+	
+.navbar.responsive .drop-content a
+{
+    border-top: 1px solid #fff;
+}
 
-	.navbar.responsive .drop-content {
-		position: center;
-		padding-left: 300px;
-		padding-right: 300px;
-		background-color: rgba(179, 167, 167, 0.5);
-	}
-	.navbar.responsive .drop-content a {
-		border-top: 1px solid #fff;
-	}
-	.navbar.responsive .dropdown .drop {
-		display: block;
-		width: 100%;
-		text-align: center;
-		border-top: 1px solid #fff;
-	}
-	.navbar.responsive .dropdown .drop:hover {
-		background-color: rgba(179, 167, 167, 0.5);
-  }
+.navbar.responsive .dropdown .drop
+{
+  display: block;
+  width: 100%;
+  text-align: center;
+  border-top: 1px solid #fff;
+}
+.navbar.responsive .dropdown .drop:hover
+{
+  background-color: rgba(179, 167, 167, 0.5);
+}
   
 
       
